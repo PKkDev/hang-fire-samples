@@ -28,6 +28,8 @@ namespace HangFireWorker
 
                 var connectToFireBase = configuration.GetConnectionString("HangFireDataBase");
 
+                Console.WriteLine("asdasdas");
+
                 //GlobalConfiguration.Configuration
                 //    .UseActivator(new ContainerJobActivator(serviceProvider))
                 //    .UseSqlServerStorage(connectToFireBase);
